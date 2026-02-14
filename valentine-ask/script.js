@@ -51,7 +51,7 @@ noBtn.addEventListener("click", (e) => { e.preventDefault(); move(); });
 // THE BIG MOMENT
 yesBtn.addEventListener("click", () => {
     hearts();
-    title.innerHTML = "BIG YAYYYYYY! 🎉<br>❤️ I LOVE YOU RASIKA! ❤️";
+    title.innerHTML = "BIG YAYYYYYY! 🎉<br>❤️ I LOVE YOU [Insert Name Here]! ❤️";
     title.style.fontSize = "2.2rem";
     catImg.src = "https://media.tenor.com/On7be2Wll8YAAAAi/goma-happy.gif";
     catImg.style.display = "block";
@@ -60,3 +60,4 @@ yesBtn.addEventListener("click", () => {
     finalText.innerHTML = "I know I'm a bit late to ask, Rasika, but my love for you is always on time. ❤️";
     document.body.style.backgroundColor = "#ffe5ec";
 });
+
